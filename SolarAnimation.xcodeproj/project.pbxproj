@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 63;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		816BE6AC2DBBC41300E13FB3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816BE6A52DBBC41300E13FB3 /* Preview Assets.xcassets */; };
+		816BE6AD2DBBC41300E13FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816BE6A72DBBC41300E13FB3 /* Assets.xcassets */; };
+		816BE6AE2DBBC41300E13FB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BE6A82DBBC41300E13FB3 /* ContentView.swift */; };
+		816BE6AF2DBBC41300E13FB3 /* SolarAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BE6AA2DBBC41300E13FB3 /* SolarAnimationApp.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		816BE6892DBBC04B00E13FB3 /* SolarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		816BE6A52DBBC41300E13FB3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		816BE6A72DBBC41300E13FB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		816BE6A82DBBC41300E13FB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		816BE6A92DBBC41300E13FB3 /* SolarAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SolarAnimation.entitlements; sourceTree = "<group>"; };
+		816BE6AA2DBBC41300E13FB3 /* SolarAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarAnimationApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		816BE68B2DBBC04B00E13FB3 /* SolarAnimation */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SolarAnimation; sourceTree = "<group>"; };
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		816BE6862DBBC04B00E13FB3 /* Frameworks */ = {
@@ -28,7 +36,7 @@
 		816BE6802DBBC04B00E13FB3 = {
 			isa = PBXGroup;
 			children = (
-				816BE68B2DBBC04B00E13FB3 /* SolarAnimation */,
+				816BE6AB2DBBC41300E13FB3 /* SolarAnimation */,
 				816BE68A2DBBC04B00E13FB3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +47,26 @@
 				816BE6892DBBC04B00E13FB3 /* SolarAnimation.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		816BE6A62DBBC41300E13FB3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				816BE6A52DBBC41300E13FB3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		816BE6AB2DBBC41300E13FB3 /* SolarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				816BE6A62DBBC41300E13FB3 /* Preview Content */,
+				816BE6A72DBBC41300E13FB3 /* Assets.xcassets */,
+				816BE6A82DBBC41300E13FB3 /* ContentView.swift */,
+				816BE6A92DBBC41300E13FB3 /* SolarAnimation.entitlements */,
+				816BE6AA2DBBC41300E13FB3 /* SolarAnimationApp.swift */,
+			);
+			path = SolarAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -55,9 +83,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				816BE68B2DBBC04B00E13FB3 /* SolarAnimation */,
 			);
 			name = SolarAnimation;
 			packageProductDependencies = (
@@ -105,6 +130,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816BE6AC2DBBC41300E13FB3 /* Preview Assets.xcassets in Resources */,
+				816BE6AD2DBBC41300E13FB3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				816BE6AE2DBBC41300E13FB3 /* ContentView.swift in Sources */,
+				816BE6AF2DBBC41300E13FB3 /* SolarAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
