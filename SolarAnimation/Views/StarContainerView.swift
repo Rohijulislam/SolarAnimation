@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct StarContainerView: View {
-    @ObservedObject var viewModel: StarViewModel = StarViewModel()
+    @StateObject private var viewModel: StarViewModel = StarViewModel()
     
     var body: some View {
         GeometryReader { geo in
@@ -28,9 +28,5 @@ struct StarContainerView: View {
 }
 
 #Preview {
-    @ObservedObject var viewModel: StarViewModel = StarViewModel()
-    return StarContainerView(viewModel: viewModel)
-        .onAppear(perform: {
-            viewModel.generateStars(in: CGSize(width: 400, height: 800))
-        })
+    StarContainerView()
 }

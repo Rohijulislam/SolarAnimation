@@ -2,7 +2,7 @@
 //  AstronomicalObject.swift
 //  SolarAnimation
 //
-//  Created by ROHEJUL ISLAM on 4/25/25.
+//  Created by ROHEJUL ISLAM on 25/4/25.
 //
 
 import Foundation
@@ -15,4 +15,11 @@ protocol AstronomicalObject: Identifiable {
 
 extension AstronomicalObject {
     var id: UUID { UUID() }
+}
+
+struct DefaultAstronomicalObject : AstronomicalObject {
+    let name: String
+    init(name: String) {
+        self.name = name
+    }
 }

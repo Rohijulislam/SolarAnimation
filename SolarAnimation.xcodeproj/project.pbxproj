@@ -19,6 +19,10 @@
 		B4593EF32DBBCC350084A8D9 /* StarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EF22DBBCC350084A8D9 /* StarContainerView.swift */; };
 		B4593EF52DBBCC620084A8D9 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EF42DBBCC620084A8D9 /* StarView.swift */; };
 		B4593EF72DBBCDCB0084A8D9 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EF62DBBCDCB0084A8D9 /* SunView.swift */; };
+		B4593EF92DBBFEF40084A8D9 /* PlanetOrbitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EF82DBBFEF40084A8D9 /* PlanetOrbitView.swift */; };
+		B4593EFB2DBBFF2A0084A8D9 /* PlanetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EFA2DBBFF2A0084A8D9 /* PlanetView.swift */; };
+		B4593EFD2DBBFFEA0084A8D9 /* SolarSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EFC2DBBFFEA0084A8D9 /* SolarSystemView.swift */; };
+		B4593EFF2DBC00460084A8D9 /* SolarSystemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EFE2DBC00460084A8D9 /* SolarSystemViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		B4593EF22DBBCC350084A8D9 /* StarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarContainerView.swift; sourceTree = "<group>"; };
 		B4593EF42DBBCC620084A8D9 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
 		B4593EF62DBBCDCB0084A8D9 /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
+		B4593EF82DBBFEF40084A8D9 /* PlanetOrbitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOrbitView.swift; sourceTree = "<group>"; };
+		B4593EFA2DBBFF2A0084A8D9 /* PlanetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetView.swift; sourceTree = "<group>"; };
+		B4593EFC2DBBFFEA0084A8D9 /* SolarSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemView.swift; sourceTree = "<group>"; };
+		B4593EFE2DBC00460084A8D9 /* SolarSystemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +103,9 @@
 				B4593EF22DBBCC350084A8D9 /* StarContainerView.swift */,
 				B4593EF42DBBCC620084A8D9 /* StarView.swift */,
 				B4593EF62DBBCDCB0084A8D9 /* SunView.swift */,
+				B4593EF82DBBFEF40084A8D9 /* PlanetOrbitView.swift */,
+				B4593EFA2DBBFF2A0084A8D9 /* PlanetView.swift */,
+				B4593EFC2DBBFFEA0084A8D9 /* SolarSystemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				B4593EEF2DBBCBB80084A8D9 /* StarViewModel.swift */,
+				B4593EFE2DBC00460084A8D9 /* SolarSystemViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -200,14 +212,18 @@
 			files = (
 				B4593EF52DBBCC620084A8D9 /* StarView.swift in Sources */,
 				B4593EE72DBBC7CE0084A8D9 /* Planet.swift in Sources */,
+				B4593EFB2DBBFF2A0084A8D9 /* PlanetView.swift in Sources */,
 				816BE6AE2DBBC41300E13FB3 /* ContentView.swift in Sources */,
+				B4593EF92DBBFEF40084A8D9 /* PlanetOrbitView.swift in Sources */,
 				B4593EF72DBBCDCB0084A8D9 /* SunView.swift in Sources */,
 				B4593EF32DBBCC350084A8D9 /* StarContainerView.swift in Sources */,
 				B4593EED2DBBCA0C0084A8D9 /* PlanetDataProvider.swift in Sources */,
 				B4593EE92DBBC88C0084A8D9 /* AstronomicalObject.swift in Sources */,
+				B4593EFD2DBBFFEA0084A8D9 /* SolarSystemView.swift in Sources */,
 				B4593EF02DBBCBB80084A8D9 /* StarViewModel.swift in Sources */,
 				B4593EEB2DBBC9B50084A8D9 /* Star.swift in Sources */,
 				816BE6AF2DBBC41300E13FB3 /* SolarAnimationApp.swift in Sources */,
+				B4593EFF2DBC00460084A8D9 /* SolarSystemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

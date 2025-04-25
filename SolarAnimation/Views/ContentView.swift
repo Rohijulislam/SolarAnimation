@@ -9,10 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack {
+        ZStack(alignment: .center) {
             StarContainerView()
-            SunView()
+            SolarSystemView()
         }
+        .ignoresSafeArea()
     }
 }
 
