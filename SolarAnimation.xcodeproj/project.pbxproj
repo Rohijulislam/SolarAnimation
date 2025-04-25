@@ -82,7 +82,7 @@
 				};
 			};
 			buildConfigurationList = 816BE6842DBBC04B00E13FB3 /* Build configuration list for PBXProject "SolarAnimation" */;
-			compatibilityVersion = "Xcode 15.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
