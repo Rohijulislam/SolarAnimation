@@ -11,6 +11,14 @@
 		816BE6AD2DBBC41300E13FB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 816BE6A72DBBC41300E13FB3 /* Assets.xcassets */; };
 		816BE6AE2DBBC41300E13FB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BE6A82DBBC41300E13FB3 /* ContentView.swift */; };
 		816BE6AF2DBBC41300E13FB3 /* SolarAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 816BE6AA2DBBC41300E13FB3 /* SolarAnimationApp.swift */; };
+		B4593EE72DBBC7CE0084A8D9 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EE62DBBC7CE0084A8D9 /* Planet.swift */; };
+		B4593EE92DBBC88C0084A8D9 /* AstronomicalObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EE82DBBC88C0084A8D9 /* AstronomicalObject.swift */; };
+		B4593EEB2DBBC9B50084A8D9 /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EEA2DBBC9B50084A8D9 /* Star.swift */; };
+		B4593EED2DBBCA0C0084A8D9 /* PlanetDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EEC2DBBCA0C0084A8D9 /* PlanetDataProvider.swift */; };
+		B4593EF02DBBCBB80084A8D9 /* StarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EEF2DBBCBB80084A8D9 /* StarViewModel.swift */; };
+		B4593EF32DBBCC350084A8D9 /* StarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EF22DBBCC350084A8D9 /* StarContainerView.swift */; };
+		B4593EF52DBBCC620084A8D9 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EF42DBBCC620084A8D9 /* StarView.swift */; };
+		B4593EF72DBBCDCB0084A8D9 /* SunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4593EF62DBBCDCB0084A8D9 /* SunView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		816BE6A82DBBC41300E13FB3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		816BE6A92DBBC41300E13FB3 /* SolarAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SolarAnimation.entitlements; sourceTree = "<group>"; };
 		816BE6AA2DBBC41300E13FB3 /* SolarAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarAnimationApp.swift; sourceTree = "<group>"; };
+		B4593EE62DBBC7CE0084A8D9 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		B4593EE82DBBC88C0084A8D9 /* AstronomicalObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomicalObject.swift; sourceTree = "<group>"; };
+		B4593EEA2DBBC9B50084A8D9 /* Star.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Star.swift; sourceTree = "<group>"; };
+		B4593EEC2DBBCA0C0084A8D9 /* PlanetDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetDataProvider.swift; sourceTree = "<group>"; };
+		B4593EEF2DBBCBB80084A8D9 /* StarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewModel.swift; sourceTree = "<group>"; };
+		B4593EF22DBBCC350084A8D9 /* StarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarContainerView.swift; sourceTree = "<group>"; };
+		B4593EF42DBBCC620084A8D9 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		B4593EF62DBBCDCB0084A8D9 /* SunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SunView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +78,51 @@
 			children = (
 				816BE6A62DBBC41300E13FB3 /* Preview Content */,
 				816BE6A72DBBC41300E13FB3 /* Assets.xcassets */,
-				816BE6A82DBBC41300E13FB3 /* ContentView.swift */,
+				B4593EEE2DBBCA110084A8D9 /* Data */,
+				B4593EE52DBBC7950084A8D9 /* Models */,
+				B4593EF12DBBCC050084A8D9 /* ViewModels */,
+				B4593EE42DBBC5AC0084A8D9 /* Views */,
 				816BE6A92DBBC41300E13FB3 /* SolarAnimation.entitlements */,
 				816BE6AA2DBBC41300E13FB3 /* SolarAnimationApp.swift */,
 			);
 			path = SolarAnimation;
+			sourceTree = "<group>";
+		};
+		B4593EE42DBBC5AC0084A8D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				816BE6A82DBBC41300E13FB3 /* ContentView.swift */,
+				B4593EF22DBBCC350084A8D9 /* StarContainerView.swift */,
+				B4593EF42DBBCC620084A8D9 /* StarView.swift */,
+				B4593EF62DBBCDCB0084A8D9 /* SunView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4593EE52DBBC7950084A8D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4593EE62DBBC7CE0084A8D9 /* Planet.swift */,
+				B4593EE82DBBC88C0084A8D9 /* AstronomicalObject.swift */,
+				B4593EEA2DBBC9B50084A8D9 /* Star.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4593EEE2DBBCA110084A8D9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B4593EEC2DBBCA0C0084A8D9 /* PlanetDataProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B4593EF12DBBCC050084A8D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4593EEF2DBBCBB80084A8D9 /* StarViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +198,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4593EF52DBBCC620084A8D9 /* StarView.swift in Sources */,
+				B4593EE72DBBC7CE0084A8D9 /* Planet.swift in Sources */,
 				816BE6AE2DBBC41300E13FB3 /* ContentView.swift in Sources */,
+				B4593EF72DBBCDCB0084A8D9 /* SunView.swift in Sources */,
+				B4593EF32DBBCC350084A8D9 /* StarContainerView.swift in Sources */,
+				B4593EED2DBBCA0C0084A8D9 /* PlanetDataProvider.swift in Sources */,
+				B4593EE92DBBC88C0084A8D9 /* AstronomicalObject.swift in Sources */,
+				B4593EF02DBBCBB80084A8D9 /* StarViewModel.swift in Sources */,
+				B4593EEB2DBBC9B50084A8D9 /* Star.swift in Sources */,
 				816BE6AF2DBBC41300E13FB3 /* SolarAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +352,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.practice.SolarAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -325,7 +389,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.practice.SolarAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
