@@ -23,7 +23,7 @@ struct SolarSystemView: View {
                 
                 // Planets and their orbits
                 ZStack {
-                    ForEach(viewModel.planets.filter { $0.orbitRadius < safeRadius }) { planet in
+                    ForEach(viewModel.visiblePlanets(safeRadius: safeRadius)) { planet in
                         PlanetOrbitView(center: center, planet: planet)
                     }
                 }

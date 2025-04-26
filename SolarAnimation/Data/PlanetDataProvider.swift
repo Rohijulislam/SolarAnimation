@@ -48,7 +48,7 @@ struct PlanetDataProvider: PlanetDataProviderProtocol {
             PlanetModel(
                 name: "Neptune",
                 orbitRadius: 180,
-                size: 18,
+                size: 22,
                 orbitDuration: 17,
                 color: .gray
             )

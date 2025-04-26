@@ -32,4 +32,8 @@ class SolarSystemViewModel: SolarSystemViewModelProtocol {
     func maxRadius(from proxy: GeometryProxy) -> CGFloat {
         return min(proxy.size.width, proxy.size.height) / 2 - 10.0 // extracting some safe offset
     }
+    
+    func visiblePlanets(safeRadius: CGFloat) -> [PlanetModel] {
+        return planets.filter { $0.orbitRadius < safeRadius }
+    }
 }
