@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Rohijulislam/SolarAnimation/blob/main/LICENSE)
 
 An animated solar system visualization built with SwiftUI following MVVM architecture & clean code principles.
+<p align="center">
+  <img src="https://github.com/Rohijulislam/SolarAnimation/blob/main/solar%20animation.gif?raw=true" alt="Solar Animation">
+</p>
+
 
 ---
 
