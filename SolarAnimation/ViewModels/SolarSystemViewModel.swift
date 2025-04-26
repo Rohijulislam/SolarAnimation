@@ -17,7 +17,6 @@ protocol SolarSystemViewModelProtocol: ObservableObject {
 class SolarSystemViewModel: SolarSystemViewModelProtocol {
     @Published var planets: [PlanetModel]
     @Published var sun: any AstronomicalObject
-    
     private let animationDuration: Double = 100
     
     init(planetDataProvider: PlanetDataProviderProtocol = PlanetDataProvider()) {

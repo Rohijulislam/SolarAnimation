@@ -20,7 +20,7 @@ struct PlanetOrbitView: View {
                 .frame(width: planet.orbitRadius * 2, height: planet.orbitRadius * 2)
                 .position(center)
             
-            // Planet with potential rings
+            // Planet
             PlanetView(planet: planet)
                 .offset(x: planet.orbitRadius)
                 .rotationEffect(.degrees(angle))

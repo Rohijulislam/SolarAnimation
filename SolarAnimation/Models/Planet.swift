@@ -35,4 +35,8 @@ struct PlanetModel: AstronomicalObject {
         self.ringTilt = ringTilt
         self.name = name
     }
+    
+    func hasRingSupport() -> Bool {
+        return hasRings && ringWidth != nil && ringTilt != nil
+    }
 }

@@ -13,11 +13,11 @@ struct PlanetView: View {
     var body: some View {
         ZStack {
             // Rings if applicable
-            if planet.hasRings, let ringWidth = planet.ringWidth, let ringTilt = planet.ringTilt {
+            if planet.hasRingSupport() {
                 Ellipse()
                     .stroke(Color.white.opacity(0.3), lineWidth: 3)
-                    .frame(width: planet.size * ringWidth, height: planet.size * 1.2)
-                    .rotationEffect(.degrees(ringTilt))
+                    .frame(width: planet.size * (planet.ringWidth ?? 0.0), height: planet.size * 1.2)
+                    .rotationEffect(.degrees(planet.ringTilt ?? 0))
                     .blur(radius: 0.5)
             }
             
@@ -28,4 +28,5 @@ struct PlanetView: View {
                 .shadow(color: planet.color.opacity(0.7), radius: 6)
         }
     }
+    
 }
