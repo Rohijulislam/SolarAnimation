@@ -21,6 +21,8 @@ struct StarContainerView: View {
             }
             .onAppear {
                 viewModel.generateStars(in: geo.size)
+            }.onChange(of: geo.size) { newSize in
+                viewModel.generateStars(in: newSize)
             }
         }
         .ignoresSafeArea()
